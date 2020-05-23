@@ -3,15 +3,8 @@
 
 You can load an input file consisting of several graphs in the following format:
 (The input parsing terminates when the number of nodes is 0.)
-
-N E
-a b
-c d
-e f
-..
-N E
-a b
-0
+The first line must contain the number of nodes (N), the line after it contains the number of edges (E).
+The next E lines contain the graph edges. The input terminates if the number of nodes N = 0.
 
 Check input.txt for a sample input file.
 
